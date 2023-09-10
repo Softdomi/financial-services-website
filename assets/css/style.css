@@ -196,6 +196,9 @@ section {
     align-items: center;
     flex-direction: column;
 }
+.banner .col-lg-8 a {
+    text-decoration: none !important;
+}
 .banner .contact-box{
     background-color: var(--alt-color);
     padding: 2rem;
