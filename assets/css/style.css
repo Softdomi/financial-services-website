@@ -85,9 +85,9 @@ section {
     background-color: var(--alt-color);
 }
 
-nav {
+/* nav {
     overflow: hidden !important
-}
+} */
 
 @media(max-width:300px) {
     html {
@@ -144,6 +144,8 @@ nav {
     z-index: 99999999999999999;
     background-color: var(--main-color);
     padding: 1.5rem;
+    width: 100%;
+ 
 }
 
 .navbar .navbar-brand img {
@@ -177,6 +179,7 @@ nav {
     height: 100vh;
     background-repeat: no-repeat;
     position: relative;
+
 }
 .banner h1{
     font-size: 3.5rem;
@@ -191,6 +194,24 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.banner .contact-box{
+    background-color: var(--alt-color);
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+
+}
+
+.banner .contact-box h3{
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: var(--sec-color);
+}
+.banner .contact-box i{
+    font-size: 3.5rem;
+    color: var(--sec-color);
 }
 @media(max-width:992px){
     .banner {
@@ -328,6 +349,6 @@ footer{
     padding: 4rem;
 }
 footer .icon i{
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--sec-color);
 }
